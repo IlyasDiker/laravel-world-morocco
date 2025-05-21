@@ -1,5 +1,5 @@
 <?php
-namespace Khsing\World;
+namespace IlyasDiker\World;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -53,7 +53,7 @@ class WorldServiceProvider extends ServiceProvider
     private function registerCommands()
     {
         $this->commands([
-            \Khsing\World\Console\InitCommand::class,
+            \IlyasDiker\World\Console\InitCommand::class,
         ]);
     }
 }

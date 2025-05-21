@@ -1,6 +1,6 @@
 <?php
 
-namespace Khsing\World\Models;
+namespace IlyasDiker\World\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

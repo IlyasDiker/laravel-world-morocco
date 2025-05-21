@@ -1,6 +1,6 @@
 <?php
 
-namespace Khsing\World\Console;
+namespace IlyasDiker\World\Console;
 
 use Illuminate\Console\Command;
 

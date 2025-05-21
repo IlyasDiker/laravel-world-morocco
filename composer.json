@@ -1,7 +1,7 @@
 {
-    "name": "khsing/world",
+    "name": "ilyasdiker/world-morocco",
     "description": "Provide countries, states, and cities relations database.",
-    "keywords": [ "world", "country", "city", "region" ],
+    "keywords": [ "world", "country", "city", "region", "morocco" ],
     "type": "library",
     "license": "MIT",
     "require": {
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Khsing\\World\\": "src/"
+            "IlyasDiker\\World\\": "src/"
         }
     },
     "minimum-stability": "stable",
@@ -27,12 +27,16 @@
         {
             "name": "Guixing Bai",
             "email": "khsing.cn@gmail.com"
+        },
+        {
+            "name": "Ilyas Benhssine",
+            "email": "ilyasbenhssine@gmail.com"
         }
     ],
     "extra": {
         "laravel": {
             "providers": [
-                "Khsing\\World\\WorldServiceProvider"
+                "IlyasDiker\\World\\WorldServiceProvider"
             ]
         }
     }

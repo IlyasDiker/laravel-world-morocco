@@ -1,10 +1,10 @@
 <?php
 
-namespace Khsing\World;
+namespace IlyasDiker\World;
 
-use Khsing\World\Models\Continent;
-use Khsing\World\Models\Country;
-use Khsing\World\Models\Division;
+use IlyasDiker\World\Models\Continent;
+use IlyasDiker\World\Models\Country;
+use IlyasDiker\World\Models\Division;
 
 /**
  * World
@@ -51,6 +51,6 @@ class World
                 ['code', $code],
             ])->first();
 
-        throw new \Khsing\World\Exceptions\InvalidCodeException("Code is invalid");
+        throw new \IlyasDiker\World\Exceptions\InvalidCodeException("Code is invalid");
     }
 }

@@ -1,6 +1,8 @@
 # Laravel World Database
 
-This package focused on World Countries, Regions, and Cities database with locale support for Laravel.
+This package focused on World Countries, Regions, and Cities according to 🇲🇦 Morocco political world view database with locale support for Laravel.
+
+Thanks to khsing/world for the awesome work.
 
 ## Conceptions
 
@@ -36,7 +38,7 @@ Country spec attributes:
 Example:
 
 ```php
-use Khsing\World\World;
+use IlyasDiker\World\World;
 $china = World::getByCode('cn');
 $china->setLocale('zh-cn');
 $china->name; // China
@@ -70,14 +72,14 @@ composer require khsing/world
 ```php
 'providers' => [
     // ...
-    Khsing\World\WorldServiceProvider::class,
+    IlyasDiker\World\WorldServiceProvider::class,
 ]
 ```
 
 - Publish and init
 
 ```php
-php artisan vendor:publish --force --provider="Khsing\World\WorldServiceProvider"
+php artisan vendor:publish --force --provider="IlyasDiker\World\WorldServiceProvider"
 composer dump-autoload
 php artisan world:init
 ```
@@ -87,7 +89,7 @@ php artisan world:init
 - get all Continent
 
 ```php
-use Khsing\World\World;
+use IlyasDiker\World\World;
 
 World::Continents()
 
@@ -96,7 +98,7 @@ World::Continents()
 - get all Countries
 
 ```php
-use Khsing\World\World;
+use IlyasDiker\World\World;
 
 World::Countries()
 ```
@@ -104,7 +106,7 @@ World::Countries()
 - get country/city/division by code
 
 ```php
-use Khsing\World\World;
+use IlyasDiker\World\World;
 
 World::getByCode('cn'); // iso-3166 alpha 2 code
 World::getByCode('chn'); // iso-3166 alpha 3 code
@@ -114,7 +116,7 @@ World::getByCode('cn-11'); // Beijing
 - get countries belong to a continent
 
 ```php
-use Khsing\World\Models\Continent;
+use IlyasDiker\World\Models\Continent;
 
 $asia = Continent::getByCode('AS');
 $countries = $asia->countries()->get();

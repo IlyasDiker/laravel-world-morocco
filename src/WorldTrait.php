@@ -1,8 +1,8 @@
 <?php
 
-namespace Khsing\World;
+namespace IlyasDiker\World;
 
-use Khsing\World\Exceptions\InvalidCodeException;
+use IlyasDiker\World\Exceptions\InvalidCodeException;
 use Illuminate\Support\Str;
 
 trait WorldTrait
