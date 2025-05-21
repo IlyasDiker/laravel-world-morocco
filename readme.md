@@ -64,7 +64,7 @@ Right now, only English(default and fallback) and Chinese-Simp `zh-cn` are suppo
 - `composer require`
 
 ```php
-composer require khsing/world
+composer require ilyasdiker/world-morocco
 ```
 
 - Add Service Provider into `config/app.php`, (Only required before Laravel 5.5)
