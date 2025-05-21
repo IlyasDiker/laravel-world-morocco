@@ -699,23 +699,6 @@ class WorldCountriesTableSeeder extends Seeder
                 'tld' => '.ne',
                 'callingcode' => '227',
             ),
-            40 => 
-            array (
-                'id' => 41,
-                'continent_id' => 3,
-                'name' => 'Western Sahara',
-                'full_name' => 'the Sahrawi Arab Democratic Republic Western Sahara',
-                'capital' => 'El Aaiún',
-                'code' => 'eh',
-                'code_alpha3' => 'esh',
-                'code_numeric' => 732,
-                'emoji' => '🇪🇭',
-                'has_division' => 0,
-                'currency_code' => 'DZD',
-                'currency_name' => 'Algerian dinar',
-                'tld' => '.eh',
-                'callingcode' => '212',
-            ),
             41 => 
             array (
                 'id' => 42,

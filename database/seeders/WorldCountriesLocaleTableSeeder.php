@@ -459,17 +459,6 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'currency_name' => '西非法郎',
                 'locale' => 'zh-cn',
             ),
-            40 => 
-            array (
-                'id' => 41,
-                'country_id' => 41,
-                'name' => '西撒哈拉',
-                'alias' => NULL,
-                'abbr' => NULL,
-                'full_name' => '阿拉伯撒哈拉民主共和国',
-                'currency_name' => '阿尔及利亚第纳尔',
-                'locale' => 'zh-cn',
-            ),
             41 => 
             array (
                 'id' => 42,
@@ -3163,17 +3152,6 @@ class WorldCountriesLocaleTableSeeder extends Seeder
                 'abbr' => NULL,
                 'full_name' => 'The Republic of Niger',
                 'currency_name' => 'CFA Franc BCEAO',
-                'locale' => 'en',
-            ),
-            286 => 
-            array (
-                'id' => 288,
-                'country_id' => 41,
-                'name' => 'Western Sahara',
-                'alias' => NULL,
-                'abbr' => NULL,
-                'full_name' => 'the Sahrawi Arab Democratic Republic Western Sahara',
-                'currency_name' => 'Algerian dinar',
                 'locale' => 'en',
             ),
             287 => 
