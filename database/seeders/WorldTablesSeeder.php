@@ -1,6 +1,6 @@
 <?php
 
-namespace Database\Seeders;
+namespace IlyasDiker\World\Database\Seeders;
 
 use Illuminate\Database\PostgresConnection;
 use Illuminate\Database\Seeder;
